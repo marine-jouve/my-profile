@@ -1,0 +1,98 @@
+ /*colors and fonts */
+ body {
+   background-color: #e6e6fa; 
+ color: black;
+ font-family: American Typewriter, serif
+ }
+h1 {
+	color:#ed5c5c;
+	font-size: 35px;
+	line-height: 1.3;
+	font-weight: bold;
+text-decoration: wavy underline lime; 
+text-transform: uppercase;
+}
+h2 {
+	color: black;
+	font-weight: bold;
+	text-decoration:none;
+}
+p{
+	color: rgb(80,80,80);
+}
+ul{
+	color: #da70d6;
+}
+a { 
+  color: #4b0082;
+ }
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+    }
+}    
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+    }
+}
+.card-white {
+	background-color: #e6e6fa;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+#img {
+	border: 4mm ridge rgba(170, 50, 220, .6);
+	box-shadow: 5px 5px 3px black;
+}
+.tête {
+	box-shadow: 5px 5px 3px black;
+	border-style: inset;
+	text-align: center;
+}
+.btn-blue {
+	background-color: purple;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 4px
+}
+.btn-blue:hover {
+	background-color: red;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color : purple;
+}
+.list-inline i:hover {
+	color : red;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
